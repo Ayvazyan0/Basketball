@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(image/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.ball{
+    background-image: url(image/ball.jpg);
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 30px;
+    left: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    animation-name: ball;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes ball{
+   
+    0%{
+        top: 30px;
+        left: 1000px;
+        
+    }
+    3%{
+        top: 50px;
+        left: 980;
+        
+    }
+    5%{
+        top: 30px;
+        left: 950px;
+    }
+    7%{
+        top: 50px;
+        left: 910px;
+    }
+    10%{
+        top: 80px;
+        left: 900px;
+    }
+    13%{
+        top: 100px;
+        left: 880;
+    }
+    15%{
+        top: 80px;
+        left: 850px;
+    }
+    18%{
+        top: 100px;
+        left: 880;
+    }
+    20%{
+        top: 130px;
+        left: 850px;
+    }
+    23%{
+        top: 150px;
+        left: 820;
+    }
+    25%{
+        top: 130px;
+        left: 800px;
+    }
+    28%{
+        top: 150px;
+        left: 790px;
+    }
+    30%{
+        top: 180px;
+        left: 770px;
+    }
+    33%{
+        top: 200px;
+        left: 750px;
+    }
+    35%{
+        top: 180px;
+        left: 700px;
+    }
+    38%{
+        top: 200px;
+        left: 700px;
+    }
+    40%{
+        top: 235px;
+        left: 680px;
+    }
+    43%{
+        top: 200px;
+        left: 650px;
+    }
+    45%{
+        top: 235px;
+        left: 620px;
+    }
+    48%{
+        top: 280px;
+        left: 600px;
+    }
+    50%{
+        top: 280px;
+        left: 600px;
+    }
+    53%{
+        top: 250px;
+        left: 550px;
+    }
+    55%{
+        top: 280px;
+        left: 550px;
+    }
+    58%{
+        top: 330px;
+        left: 510px;
+    }
+    60%{
+        top: 335px;
+        left: 500px;
+    }
+    63%{
+        top: 340px;
+        left: 480px;
+    }
+    65%{
+        top: 335px;
+        left: 450px;
+    }
+    68%{
+        top: 385px;
+        left: 440px;
+    }
+    70%{
+        top: 385px;
+        left: 440px;
+    }
+    73%{
+        top: 385px;
+        left: 400px;
+    }
+    75%{
+        top: 385px;
+        left: 380px;
+    }
+    78%{
+        top: 400px;
+        left: 380px;
+    }
+    80%{
+        top: 440px;
+        left: 360px;
+    }
+    83%{
+        top: 400;
+        left: 340px;
+    }
+    85%{
+        top: 440px;
+        left: 320px;
+    }
+    88%{
+        top: 450px;
+        left: 300px;
+    }
+    90%{
+        top: 490px;
+        left: 280px;
+    }
+    93%{
+        top: 490px;
+        left: 230px;
+    }
+    95%{
+        top: 490px;
+        left: 210px;
+    }
+    98%{
+        top: 500px;
+        left: 200px;
+    }
+    100%{
+        
+        top: 510px;
+        left: 190px;
+    }
+    
+}
+
